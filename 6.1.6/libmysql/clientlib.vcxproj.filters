@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\get_password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\libmysql.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\errmsg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\my_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client_plugin.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client_authentication.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\net_serv.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\pack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\auth\password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\mysql_trace.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3938AB05-35AA-3D4E-944C-625A87AE6006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

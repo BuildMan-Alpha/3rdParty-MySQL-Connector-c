@@ -1,0 +1,17 @@
+﻿Build started 7/15/2016 12:15:44 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\mysql_client_test.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/tests/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /Z7 /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D MYSQL_CLIENT /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mysql_client_test.dir\Debug\\" /Fd"mysql_client_test.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\mysql_client_test.c"
+         mysql_client_test.c
+     1>c:\dev\3rdparty\mysql\connector-c\6.1.6\tests\mysql_client_fw.c(1263): warning C4090: 'initializing' : different 'const' qualifiers
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\Debug\mysql_client_test.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib ..\libmysql\Debug\mysqlclient.lib ws2_32.lib Secur32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/tests/Debug/mysql_client_test.pdb" /SUBSYSTEM:CONSOLE,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/tests/Debug/mysql_client_test.lib" /MACHINE:X86 /SAFESEH  /machine:X86 mysql_client_test.dir\Debug\mysql_client_test.obj
+         mysql_client_test.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\Debug\mysql_client_test.exe
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\tests\mysql_client_test.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.06

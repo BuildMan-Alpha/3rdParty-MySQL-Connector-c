@@ -1,0 +1,26 @@
+﻿Build started 7/15/2016 12:15:15 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\vio.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/vio/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /nologo /W3 /WX- /MP /O1 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"MinSizeRel\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"vio.dir\MinSizeRel\\" /Fd"vio.dir\MinSizeRel\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\vio.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\viosocket.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\viossl.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\viosslfactories.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\viopipe.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\vioshm.c"
+         vio.c
+         viosocket.c
+         viossl.c
+         viosslfactories.c
+         viopipe.c
+         vioshm.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\MinSizeRel\vio.lib" /NOLOGO  /machine:X86 vio.dir\MinSizeRel\vio.obj
+         vio.dir\MinSizeRel\viosocket.obj
+         vio.dir\MinSizeRel\viossl.obj
+         vio.dir\MinSizeRel\viosslfactories.obj
+         vio.dir\MinSizeRel\viopipe.obj
+         vio.dir\MinSizeRel\vioshm.obj
+         vio.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\MinSizeRel\vio.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\vio\vio.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.73

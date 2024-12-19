@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\plugin_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\handshake_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\log_client.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\common.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\handshake.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\common.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\handshake.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3938AB05-35AA-3D4E-944C-625A87AE6006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{B0E9E62D-D77A-37C3-BA88-EC2F16A25498}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

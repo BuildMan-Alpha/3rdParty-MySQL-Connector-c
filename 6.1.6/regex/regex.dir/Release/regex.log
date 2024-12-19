@@ -1,0 +1,24 @@
+﻿Build started 7/15/2016 12:15:52 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regex.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/regex/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /Z7 /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"regex.dir\Release\\" /Fd"regex.dir\Release\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regcomp.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regerror.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regexec.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regfree.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\reginit.c"
+         regcomp.c
+         regerror.c
+         regexec.c
+         regfree.c
+         reginit.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\Release\regex.lib" /NOLOGO  /machine:X86 regex.dir\Release\regcomp.obj
+         regex.dir\Release\regerror.obj
+         regex.dir\Release\regexec.obj
+         regex.dir\Release\regfree.obj
+         regex.dir\Release\reginit.obj
+         regex.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\Release\regex.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regex.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

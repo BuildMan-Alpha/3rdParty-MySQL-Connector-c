@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regcomp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regerror.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regexec.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\regfree.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\reginit.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3938AB05-35AA-3D4E-944C-625A87AE6006}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

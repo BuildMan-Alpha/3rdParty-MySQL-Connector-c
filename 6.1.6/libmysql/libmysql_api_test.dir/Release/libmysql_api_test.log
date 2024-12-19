@@ -1,0 +1,16 @@
+﻿Build started 7/15/2016 12:15:28 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\libmysql_api_test.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D CLIENT_PROTOCOL_TRACING /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D AUTHENTICATION_WIN /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"libmysql_api_test.dir\Release\\" /Fd"libmysql_api_test.dir\Release\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\api_test.c"
+         api_test.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\Release\libmysql_api_test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib Release\libmysql.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/Release/libmysql_api_test.pdb" /SUBSYSTEM:CONSOLE,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/Release/libmysql_api_test.lib" /MACHINE:X86 /SAFESEH  /machine:X86 libmysql_api_test.dir\Release\api_test.obj
+         libmysql_api_test.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\Release\libmysql_api_test.exe
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\libmysql_api_test.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56

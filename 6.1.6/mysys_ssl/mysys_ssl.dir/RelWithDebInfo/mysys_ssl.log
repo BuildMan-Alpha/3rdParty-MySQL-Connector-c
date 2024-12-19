@@ -1,0 +1,36 @@
+﻿Build started 7/15/2016 12:14:45 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\mysys_ssl.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys_ssl/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /Z7 /nologo /W3 /WX- /MP /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"mysys_ssl.dir\RelWithDebInfo\\" /Fd"mysys_ssl.dir\RelWithDebInfo\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\crypt_genhash_impl.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\mf_tempdir.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_default.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_getopt.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_aes.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_sha1.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_sha2.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_md5.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_rnd.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_murmur3.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\my_aes_yassl.cc"
+         crypt_genhash_impl.cc
+         mf_tempdir.cc
+         my_default.cc
+         my_getopt.cc
+         my_aes.cc
+         my_sha1.cc
+         my_sha2.cc
+         my_md5.cc
+         my_rnd.cc
+         my_murmur3.cc
+         my_aes_yassl.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\RelWithDebInfo\mysys_ssl.lib" /NOLOGO  /machine:X86 mysys_ssl.dir\RelWithDebInfo\crypt_genhash_impl.obj
+         mysys_ssl.dir\RelWithDebInfo\mf_tempdir.obj
+         mysys_ssl.dir\RelWithDebInfo\my_default.obj
+         mysys_ssl.dir\RelWithDebInfo\my_getopt.obj
+         mysys_ssl.dir\RelWithDebInfo\my_aes.obj
+         mysys_ssl.dir\RelWithDebInfo\my_sha1.obj
+         mysys_ssl.dir\RelWithDebInfo\my_sha2.obj
+         mysys_ssl.dir\RelWithDebInfo\my_md5.obj
+         mysys_ssl.dir\RelWithDebInfo\my_rnd.obj
+         mysys_ssl.dir\RelWithDebInfo\my_murmur3.obj
+         mysys_ssl.dir\RelWithDebInfo\my_aes_yassl.obj
+         mysys_ssl.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\RelWithDebInfo\mysys_ssl.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\mysys_ssl\mysys_ssl.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.33

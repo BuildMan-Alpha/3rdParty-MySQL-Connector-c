@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D28CC796-E720-3042-B6C1-87F2C8243F56}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>GenError</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\e6a89b9f39f1926d23e21aaa92f60939\mysqld_error.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+Debug\comp_err.exe --charset=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/charsets --out-dir=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/ --header_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_error.h --name_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_ername.h --state_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/sql_state.h --in_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6a89b9f39f1926d23e21aaa92f60939/mysqld_error.h.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+Release\comp_err.exe --charset=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/charsets --out-dir=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/ --header_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_error.h --name_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_ername.h --state_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/sql_state.h --in_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6a89b9f39f1926d23e21aaa92f60939/mysqld_error.h.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+MinSizeRel\comp_err.exe --charset=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/charsets --out-dir=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/ --header_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_error.h --name_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_ername.h --state_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/sql_state.h --in_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6a89b9f39f1926d23e21aaa92f60939/mysqld_error.h.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+RelWithDebInfo\comp_err.exe --charset=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/charsets --out-dir=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/ --header_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_error.h --name_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysqld_ername.h --state_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/sql_state.h --in_file=C:/dev/3rdParty/MySQL/Connector-c/6.1.6/sql/share/errmsg-utf8.txt
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6a89b9f39f1926d23e21aaa92f60939/mysqld_error.h.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\e6d447030b6f872f17c0b2674ffbfd87\GenError.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6d447030b6f872f17c0b2674ffbfd87/GenError.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6d447030b6f872f17c0b2674ffbfd87/GenError.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6d447030b6f872f17c0b2674ffbfd87/GenError.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+      </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/e6d447030b6f872f17c0b2674ffbfd87/GenError.rule;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include\mysqld_error.h;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\english\errmsg.sys;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\share\errmsg-utf8.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\GenError</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\GenError" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/ZERO_CHECK.vcxproj">
+      <Project>7CE1B5EC-3C81-3D3A-9456-07630BC82DE3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/comp_err.vcxproj">
+      <Project>A0A4CAE3-D45D-39D3-89C4-C32CA6429BE1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

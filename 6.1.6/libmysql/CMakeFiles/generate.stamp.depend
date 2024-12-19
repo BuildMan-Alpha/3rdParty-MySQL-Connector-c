@@ -1,0 +1,5 @@
+# CMake generation dependency list for this directory.
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/CMakeLists.txt
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/configurable_file_content.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/configurable_file_content.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/api_test.c.in

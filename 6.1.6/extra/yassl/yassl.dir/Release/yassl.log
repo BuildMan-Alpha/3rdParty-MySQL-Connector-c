@@ -1,0 +1,41 @@
+﻿Build started 7/15/2016 12:14:40 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\yassl.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /Z7 /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D get_tty_password_ext=yassl_mysql_get_tty_password_ext /D get_tty_password=yassl_mysql_get_tty_password /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"yassl.dir\Release\\" /Fd"yassl.dir\Release\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\buffer.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\cert_wrapper.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\crypto_wrapper.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\handshake.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\lock.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\log.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\socket_wrapper.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\ssl.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\timer.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\yassl_error.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\yassl_imp.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\src\yassl_int.cpp"
+         buffer.cpp
+         cert_wrapper.cpp
+         crypto_wrapper.cpp
+         handshake.cpp
+         lock.cpp
+         log.cpp
+         socket_wrapper.cpp
+         ssl.cpp
+         timer.cpp
+         yassl_error.cpp
+         yassl_imp.cpp
+         yassl_int.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /Z7 /nologo /W3 /WX- /MP /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D get_tty_password_ext=yassl_mysql_get_tty_password_ext /D get_tty_password=yassl_mysql_get_tty_password /D "CMAKE_INTDIR=\"Release\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"yassl.dir\Release\\" /Fd"yassl.dir\Release\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\client\get_password.c"
+         get_password.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\Release\yassl.lib" /NOLOGO  /machine:X86 yassl.dir\Release\buffer.obj
+         yassl.dir\Release\cert_wrapper.obj
+         yassl.dir\Release\crypto_wrapper.obj
+         yassl.dir\Release\handshake.obj
+         yassl.dir\Release\lock.obj
+         yassl.dir\Release\log.obj
+         yassl.dir\Release\socket_wrapper.obj
+         yassl.dir\Release\ssl.obj
+         yassl.dir\Release\timer.obj
+         yassl.dir\Release\yassl_error.obj
+         yassl.dir\Release\yassl_imp.obj
+         yassl.dir\Release\yassl_int.obj
+         yassl.dir\Release\get_password.obj
+         yassl.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\Release\yassl.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\yassl.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.94

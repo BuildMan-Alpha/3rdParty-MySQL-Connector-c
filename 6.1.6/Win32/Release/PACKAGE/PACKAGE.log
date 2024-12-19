@@ -1,0 +1,27 @@
+﻿Build started 7/15/2016 12:16:05 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\PACKAGE.vcxproj" on node 2 (Rebuild target(s)).
+     1>PostBuildEvent:
+         setlocal
+         cd C:\dev\3rdParty\MySQL\Connector-c\6.1.6
+         if %errorlevel% neq 0 goto :cmEnd
+         C:
+         if %errorlevel% neq 0 goto :cmEnd
+         "c:\Program Files (x86)\CMake\bin\cpack.exe" -C Release --config ./CPackConfig.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         CPack: Create package using ZIP
+         CPack: Install projects
+         CPack: - Install project: LibMySQL
+         CPack: Create package
+         CPack: - package: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysql-connector-c-6.1.6-win32.zip generated.
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\PACKAGE.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.74

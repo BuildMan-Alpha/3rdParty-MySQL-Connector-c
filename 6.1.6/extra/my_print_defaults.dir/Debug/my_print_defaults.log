@@ -1,0 +1,20 @@
+﻿Build started 7/15/2016 12:15:34 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\my_print_defaults.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D MUTEX_EVENT /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"my_print_defaults.dir\Debug\\" /Fd"my_print_defaults.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\my_print_defaults.c"
+         my_print_defaults.c
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\my_print_defaults.c(98): warning C4090: 'initializing' : different 'const' qualifiers
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D WIN32 /D _WINDOWS /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D MUTEX_EVENT /D "CMAKE_INTDIR=\\\"Debug\\\"" /D _USING_V110_SDK71_ /l"0x0409" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /nologo /fo"my_print_defaults.dir\Debug\versioninfo_exe.res" C:\dev\3rdParty\MySQL\Connector-c\6.1.6\versioninfo_exe.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\Debug\my_print_defaults.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib ..\mysys\Debug\mysys.lib ..\mysys_ssl\Debug\mysys_ssl.lib ..\mysys\Debug\mysys.lib ..\dbug\Debug\dbug.lib ..\mysys\Debug\mysys.lib ..\dbug\Debug\dbug.lib ..\strings\Debug\strings.lib ..\zlib\Debug\zlib.lib yassl\Debug\yassl.lib yassl\taocrypt\Debug\taocrypt.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Debug/my_print_defaults.pdb" /SUBSYSTEM:CONSOLE,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Debug/my_print_defaults.lib" /MACHINE:X86 /SAFESEH  /machine:X86 my_print_defaults.dir\Debug\versioninfo_exe.res
+         my_print_defaults.dir\Debug\my_print_defaults.obj
+         my_print_defaults.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\Debug\my_print_defaults.exe
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\my_print_defaults.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{03040A52-E41C-3789-9535-EAFD6AB59044}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>perror</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">perror.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">perror</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">perror.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">perror</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">perror.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">perror</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">perror.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">perror</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;ENABLED_DEBUG_SYNC;SAFE_MUTEX;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;..\mysys\Debug\mysys.lib;..\mysys_ssl\Debug\mysys_ssl.lib;..\mysys\Debug\mysys.lib;..\dbug\Debug\dbug.lib;..\mysys\Debug\mysys.lib;..\dbug\Debug\dbug.lib;..\strings\Debug\strings.lib;..\zlib\Debug\zlib.lib;yassl\Debug\yassl.lib;yassl\taocrypt\Debug\taocrypt.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Debug/perror.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Debug/perror.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;..\mysys\Release\mysys.lib;..\mysys_ssl\Release\mysys_ssl.lib;..\mysys\Release\mysys.lib;..\dbug\Release\dbug.lib;..\mysys\Release\mysys.lib;..\dbug\Release\dbug.lib;..\strings\Release\strings.lib;..\zlib\Release\zlib.lib;yassl\Release\yassl.lib;yassl\taocrypt\Release\taocrypt.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Release/perror.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/Release/perror.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;..\mysys\MinSizeRel\mysys.lib;..\mysys_ssl\MinSizeRel\mysys_ssl.lib;..\mysys\MinSizeRel\mysys.lib;..\dbug\MinSizeRel\dbug.lib;..\mysys\MinSizeRel\mysys.lib;..\dbug\MinSizeRel\dbug.lib;..\strings\MinSizeRel\strings.lib;..\zlib\MinSizeRel\zlib.lib;yassl\MinSizeRel\yassl.lib;yassl\taocrypt\MinSizeRel\taocrypt.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/MinSizeRel/perror.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/MinSizeRel/perror.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4800;4805;4996</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <TreatSpecificWarningsAsErrors>4099</TreatSpecificWarningsAsErrors>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;DBUG_OFF;_WIN32_WINNT=0x0601;WIN32_LEAN_AND_MEAN;NOGDI;NOMINMAX;HAVE_CONFIG_H;MUTEX_EVENT;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;..\mysys\RelWithDebInfo\mysys.lib;..\mysys_ssl\RelWithDebInfo\mysys_ssl.lib;..\mysys\RelWithDebInfo\mysys.lib;..\dbug\RelWithDebInfo\dbug.lib;..\mysys\RelWithDebInfo\mysys.lib;..\dbug\RelWithDebInfo\dbug.lib;..\strings\RelWithDebInfo\strings.lib;..\zlib\RelWithDebInfo\zlib.lib;yassl\RelWithDebInfo\yassl.lib;yassl\taocrypt\RelWithDebInfo\taocrypt.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/RelWithDebInfo/perror.lib</ImportLibrary>
+      <LargeAddressAware>true</LargeAddressAware>
+      <ProgramDataBaseFile>C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/RelWithDebInfo/perror.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"c:\Program Files (x86)\CMake\bin\cmake.exe" -HC:/dev/3rdParty/MySQL/Connector-c/6.1.6 -BC:/dev/3rdParty/MySQL/Connector-c/6.1.6 --check-stamp-file C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\perror.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ResourceCompile Include="C:\dev\3rdParty\MySQL\Connector-c\6.1.6\versioninfo_exe.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/ZERO_CHECK.vcxproj">
+      <Project>7CE1B5EC-3C81-3D3A-9456-07630BC82DE3</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/GenError.vcxproj">
+      <Project>D28CC796-E720-3042-B6C1-87F2C8243F56</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/dbug/dbug.vcxproj">
+      <Project>D9AA42AA-A1EB-3E49-8573-13071F4B6C0D</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys_ssl/mysys_ssl.vcxproj">
+      <Project>1D98A16E-4FBA-363B-94EE-A4A737691FFA</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/strings/strings.vcxproj">
+      <Project>EB3379D6-3BEB-3FEB-9C04-4AE37C2500CE</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/taocrypt/taocrypt.vcxproj">
+      <Project>418DC111-2474-3EDE-995F-D6C6581A88E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/yassl.vcxproj">
+      <Project>8248EB54-4DB6-3229-9CEC-AF2E3A511A1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/dev/3rdParty/MySQL/Connector-c/6.1.6/zlib/zlib.vcxproj">
+      <Project>A425F974-8361-3025-9869-D2D8C60C959E</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

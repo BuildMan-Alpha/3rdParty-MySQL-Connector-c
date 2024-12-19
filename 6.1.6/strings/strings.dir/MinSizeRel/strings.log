@@ -1,0 +1,108 @@
+﻿Build started 7/15/2016 12:13:57 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strings.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/strings/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /nologo /W3 /WX- /MP /O1 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D DISABLE_MYSQL_THREAD_H /D "CMAKE_INTDIR=\"MinSizeRel\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"strings.dir\MinSizeRel\\" /Fd"strings.dir\MinSizeRel\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\bchange.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-big5.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-bin.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-cp932.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-czech.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-euc_kr.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-eucjpms.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-extra.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-gb2312.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-gbk.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-gb18030.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-latin1.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-mb.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-simple.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-sjis.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-tis620.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-uca.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ujis.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-utf8.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-win1250ch.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\decimal.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\dtoa.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\int2str.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\is_prefix.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\llstr.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\longlong2str.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\my_strtoll10.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\my_vsnprintf.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\str2int.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\str_alloc.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strcend.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strend.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strfill.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strmake.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\my_stpmov.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\my_stpnmov.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strxmov.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strxnmov.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\xml.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\my_strchr.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strcont.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strappend.c"
+         bchange.c
+         ctype-big5.c
+         ctype-bin.c
+         ctype-cp932.c
+         ctype-czech.c
+         ctype-euc_kr.c
+         ctype-eucjpms.c
+         ctype-extra.c
+         ctype-gb2312.c
+         ctype-gbk.c
+         ctype-gb18030.c
+         ctype-latin1.c
+         ctype-mb.c
+         ctype-simple.c
+         ctype-sjis.c
+         ctype-tis620.c
+         ctype-uca.c
+         ctype-ucs2.c
+         ctype-ujis.c
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(798): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(813): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(832): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(846): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(857): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\ctype-ucs2.c(863): warning C4244: '=' : conversion from 'ulong' to 'uchar', possible loss of data
+         ctype-utf8.c
+         ctype-win1250ch.c
+         ctype.c
+         decimal.c
+         dtoa.c
+         int2str.c
+         is_prefix.c
+         llstr.c
+         longlong2str.c
+         my_strtoll10.c
+         my_vsnprintf.c
+         str2int.c
+         str_alloc.c
+         strcend.c
+         strend.c
+         strfill.c
+         strmake.c
+         my_stpmov.c
+         my_stpnmov.c
+         strxmov.c
+         strxnmov.c
+         xml.c
+         my_strchr.c
+         strcont.c
+         strappend.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\MinSizeRel\strings.lib" /NOLOGO  /machine:X86 strings.dir\MinSizeRel\bchange.obj
+         "strings.dir\MinSizeRel\ctype-big5.obj"
+         "strings.dir\MinSizeRel\ctype-bin.obj"
+         "strings.dir\MinSizeRel\ctype-cp932.obj"
+         "strings.dir\MinSizeRel\ctype-czech.obj"
+         "strings.dir\MinSizeRel\ctype-euc_kr.obj"
+         "strings.dir\MinSizeRel\ctype-eucjpms.obj"
+         "strings.dir\MinSizeRel\ctype-extra.obj"
+         "strings.dir\MinSizeRel\ctype-gb2312.obj"
+         "strings.dir\MinSizeRel\ctype-gbk.obj"
+         "strings.dir\MinSizeRel\ctype-gb18030.obj"
+         "strings.dir\MinSizeRel\ctype-latin1.obj"
+         "strings.dir\MinSizeRel\ctype-mb.obj"
+         "strings.dir\MinSizeRel\ctype-simple.obj"
+         "strings.dir\MinSizeRel\ctype-sjis.obj"
+         "strings.dir\MinSizeRel\ctype-tis620.obj"
+         "strings.dir\MinSizeRel\ctype-uca.obj"
+         "strings.dir\MinSizeRel\ctype-ucs2.obj"
+         "strings.dir\MinSizeRel\ctype-ujis.obj"
+         "strings.dir\MinSizeRel\ctype-utf8.obj"
+         "strings.dir\MinSizeRel\ctype-win1250ch.obj"
+         strings.dir\MinSizeRel\ctype.obj
+         strings.dir\MinSizeRel\decimal.obj
+         strings.dir\MinSizeRel\dtoa.obj
+         strings.dir\MinSizeRel\int2str.obj
+         strings.dir\MinSizeRel\is_prefix.obj
+         strings.dir\MinSizeRel\llstr.obj
+         strings.dir\MinSizeRel\longlong2str.obj
+         strings.dir\MinSizeRel\my_strtoll10.obj
+         strings.dir\MinSizeRel\my_vsnprintf.obj
+         strings.dir\MinSizeRel\str2int.obj
+         strings.dir\MinSizeRel\str_alloc.obj
+         strings.dir\MinSizeRel\strcend.obj
+         strings.dir\MinSizeRel\strend.obj
+         strings.dir\MinSizeRel\strfill.obj
+         strings.dir\MinSizeRel\strmake.obj
+         strings.dir\MinSizeRel\my_stpmov.obj
+         strings.dir\MinSizeRel\my_stpnmov.obj
+         strings.dir\MinSizeRel\strxmov.obj
+         strings.dir\MinSizeRel\strxnmov.obj
+         strings.dir\MinSizeRel\xml.obj
+         strings.dir\MinSizeRel\my_strchr.obj
+         strings.dir\MinSizeRel\strcont.obj
+         strings.dir\MinSizeRel\strappend.obj
+         strings.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\MinSizeRel\strings.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings\strings.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.56

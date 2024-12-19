@@ -1,0 +1,109 @@
+# CMake generation dependency list for this directory.
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeLists.txt
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CMakeSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CMakeCCompiler.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/os/Windows.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckStructHasMember.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceRuns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/os/WindowsCache.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/build_configurations/compiler_options.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/build_configurations/feature_set.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/character_sets.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/cpu_info.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/zlib.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/ssl.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/mysql_version.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/VERSION
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/package_name.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/cpack_source_ignore_files.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/versioninfo.rc.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/versioninfo.rc.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/libutils.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/cmake_parse_arguments.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/dtrace.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/install_macros.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/cmake_parse_arguments.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/install_layout.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/mysql_add_executable.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/cmake_parse_arguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/configure.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckStructHasMember.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCSourceRuns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckCXXSourceRuns.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/FindThreads.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckSymbolExists.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/FindPackageMessage.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CMakeParseArguments.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/TestBigEndian.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckTypeSize.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CheckIncludeFileCXX.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/maintainer.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/abi_check.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/tags.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/config.h.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/config.h.cmake
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/mysql_version.h.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/cmake/info_macros.cmake.in
+C:/dev/3rdParty/MySQL/Connector-c/6.1.6/info_macros.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CPack.cmake
+C:/Program Files (x86)/CMake/share/cmake-3.6/Modules/CPackComponent.cmake
+c:/Program Files (x86)/CMake/share/cmake-3.6/Templates/CPackConfig.cmake.in
+c:/Program Files (x86)/CMake/share/cmake-3.6/Templates/CPackConfig.cmake.in

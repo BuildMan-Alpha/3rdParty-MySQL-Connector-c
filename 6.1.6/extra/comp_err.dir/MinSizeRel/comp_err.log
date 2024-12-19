@@ -1,0 +1,17 @@
+﻿Build started 7/15/2016 12:14:55 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /nologo /W3 /WX- /MP /O1 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D MUTEX_EVENT /D "CMAKE_INTDIR=\"MinSizeRel\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"comp_err.dir\MinSizeRel\\" /Fd"comp_err.dir\MinSizeRel\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c"
+         comp_err.c
+     1>C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.c(136): warning C4090: 'initializing' : different 'const' qualifiers
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\MinSizeRel\comp_err.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib ..\mysys\MinSizeRel\mysys.lib ..\mysys_ssl\MinSizeRel\mysys_ssl.lib ..\mysys\MinSizeRel\mysys.lib ..\dbug\MinSizeRel\dbug.lib ..\mysys\MinSizeRel\mysys.lib ..\dbug\MinSizeRel\dbug.lib ..\strings\MinSizeRel\strings.lib ..\zlib\MinSizeRel\zlib.lib yassl\MinSizeRel\yassl.lib yassl\taocrypt\MinSizeRel\taocrypt.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/MinSizeRel/comp_err.pdb" /SUBSYSTEM:CONSOLE,"5.01" /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/MinSizeRel/comp_err.lib" /MACHINE:X86 /SAFESEH  /machine:X86 comp_err.dir\MinSizeRel\comp_err.obj
+         comp_err.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\MinSizeRel\comp_err.exe
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\comp_err.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.06

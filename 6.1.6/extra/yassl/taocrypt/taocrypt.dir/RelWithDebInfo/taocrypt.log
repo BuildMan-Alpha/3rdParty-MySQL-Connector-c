@@ -1,0 +1,59 @@
+﻿Build started 7/15/2016 12:14:31 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\taocrypt.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/taocrypt/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /Z7 /nologo /W3 /WX- /MP /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"taocrypt.dir\RelWithDebInfo\\" /Fd"taocrypt.dir\RelWithDebInfo\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\aes.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\aestables.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\algebra.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\arc4.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\asn.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\coding.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\des.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\dh.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\dsa.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\file.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\hash.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\integer.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\md2.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\md4.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\md5.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\misc.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\random.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\ripemd.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\rsa.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\sha.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\rabbit.cpp" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\src\hc128.cpp"
+         aes.cpp
+         aestables.cpp
+         algebra.cpp
+         arc4.cpp
+         asn.cpp
+         coding.cpp
+         des.cpp
+         dh.cpp
+         dsa.cpp
+         file.cpp
+         hash.cpp
+         integer.cpp
+         md2.cpp
+         md4.cpp
+         installed, so use of SSE2 intrinsics will be disabled.
+         md5.cpp
+         misc.cpp
+         random.cpp
+         ripemd.cpp
+         rsa.cpp
+         sha.cpp
+         rabbit.cpp
+         hc128.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\RelWithDebInfo\taocrypt.lib" /NOLOGO  /machine:X86 taocrypt.dir\RelWithDebInfo\aes.obj
+         taocrypt.dir\RelWithDebInfo\aestables.obj
+         taocrypt.dir\RelWithDebInfo\algebra.obj
+         taocrypt.dir\RelWithDebInfo\arc4.obj
+         taocrypt.dir\RelWithDebInfo\asn.obj
+         taocrypt.dir\RelWithDebInfo\coding.obj
+         taocrypt.dir\RelWithDebInfo\des.obj
+         taocrypt.dir\RelWithDebInfo\dh.obj
+         taocrypt.dir\RelWithDebInfo\dsa.obj
+         taocrypt.dir\RelWithDebInfo\file.obj
+         taocrypt.dir\RelWithDebInfo\hash.obj
+         taocrypt.dir\RelWithDebInfo\integer.obj
+         taocrypt.dir\RelWithDebInfo\md2.obj
+         taocrypt.dir\RelWithDebInfo\md4.obj
+         taocrypt.dir\RelWithDebInfo\md5.obj
+         taocrypt.dir\RelWithDebInfo\misc.obj
+         taocrypt.dir\RelWithDebInfo\random.obj
+         taocrypt.dir\RelWithDebInfo\ripemd.obj
+         taocrypt.dir\RelWithDebInfo\rsa.obj
+         taocrypt.dir\RelWithDebInfo\sha.obj
+         taocrypt.dir\RelWithDebInfo\rabbit.obj
+         taocrypt.dir\RelWithDebInfo\hc128.obj
+         taocrypt.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\RelWithDebInfo\taocrypt.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\taocrypt.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84

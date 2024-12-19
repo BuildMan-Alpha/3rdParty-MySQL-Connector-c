@@ -1,0 +1,738 @@
+The system is: Windows - 6.1.7601 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:26 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.68
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:28 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\3.6.0-rc3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.67
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/3.6.0-rc3/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f4d13.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:29 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_f4d13.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_f4d13.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_f4d13.dir\Debug\cmTC_f4d13.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_f4d13.dir\Debug\cmTC_f4d13.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f4d13.dir\Debug\\" /Fd"cmTC_f4d13.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\testCCompiler.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f4d13.dir\Debug\\" /Fd"cmTC_f4d13.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\testCCompiler.c"
+  
+  testCCompiler.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f4d13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f4d13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_f4d13.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_f4d13.dir\Debug\testCCompiler.obj
+  cmTC_f4d13.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_f4d13.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_f4d13.dir\Debug\cmTC_f4d13.tlog\unsuccessfulbuild".
+  Touching "cmTC_f4d13.dir\Debug\cmTC_f4d13.tlog\cmTC_f4d13.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_f4d13.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.23
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_56a5f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:30 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_56a5f.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_56a5f.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_56a5f.dir\Debug\cmTC_56a5f.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_56a5f.dir\Debug\cmTC_56a5f.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_56a5f.dir\Debug\\" /Fd"cmTC_56a5f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_56a5f.dir\Debug\\" /Fd"cmTC_56a5f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_56a5f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_56a5f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_56a5f.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_56a5f.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_56a5f.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_56a5f.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_56a5f.dir\Debug\cmTC_56a5f.tlog\unsuccessfulbuild".
+  Touching "cmTC_56a5f.dir\Debug\cmTC_56a5f.tlog\cmTC_56a5f.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_56a5f.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.06
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4289e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:32 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_4289e.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_4289e.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_4289e.dir\Debug\cmTC_4289e.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_4289e.dir\Debug\cmTC_4289e.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4289e.dir\Debug\\" /Fd"cmTC_4289e.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_4289e.dir\Debug\\" /Fd"cmTC_4289e.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\testCXXCompiler.cxx"
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_4289e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_4289e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_4289e.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_4289e.dir\Debug\testCXXCompiler.obj
+  cmTC_4289e.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_4289e.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_4289e.dir\Debug\cmTC_4289e.tlog\unsuccessfulbuild".
+  Touching "cmTC_4289e.dir\Debug\cmTC_4289e.tlog\cmTC_4289e.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_4289e.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.76
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9299c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:33 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_9299c.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_9299c.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_9299c.dir\Debug\cmTC_9299c.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_9299c.dir\Debug\cmTC_9299c.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9299c.dir\Debug\\" /Fd"cmTC_9299c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_9299c.dir\Debug\\" /Fd"cmTC_9299c.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\Program Files (x86)\CMake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_9299c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_9299c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_9299c.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_9299c.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTC_9299c.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_9299c.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_9299c.dir\Debug\cmTC_9299c.tlog\unsuccessfulbuild".
+  Touching "cmTC_9299c.dir\Debug\cmTC_9299c.tlog\cmTC_9299c.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_9299c.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+
+
+Detecting CXX [] compiler features compiled with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_19ca2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:34 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_19ca2.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_19ca2.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_19ca2.dir\Debug\cmTC_19ca2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_19ca2.dir\Debug\cmTC_19ca2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_19ca2.dir\Debug\\" /Fd"cmTC_19ca2.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\feature_tests.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_19ca2.dir\Debug\\" /Fd"cmTC_19ca2.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\feature_tests.cxx"
+  
+  feature_tests.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_19ca2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_19ca2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_19ca2.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_19ca2.dir\Debug\feature_tests.obj
+  cmTC_19ca2.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_19ca2.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_19ca2.dir\Debug\cmTC_19ca2.tlog\unsuccessfulbuild".
+  Touching "cmTC_19ca2.dir\Debug\cmTC_19ca2.tlog\cmTC_19ca2.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_19ca2.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.78
+
+
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_78aa5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:36 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_78aa5.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_78aa5.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_78aa5.dir\Debug\cmTC_78aa5.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_78aa5.dir\Debug\cmTC_78aa5.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_78aa5.dir\Debug\\" /Fd"cmTC_78aa5.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_78aa5.dir\Debug\\" /Fd"cmTC_78aa5.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_78aa5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_78aa5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_78aa5.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_78aa5.dir\Debug\CheckIncludeFile.obj
+  cmTC_78aa5.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_78aa5.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_78aa5.dir\Debug\cmTC_78aa5.tlog\unsuccessfulbuild".
+  Touching "cmTC_78aa5.dir\Debug\cmTC_78aa5.tlog\cmTC_78aa5.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_78aa5.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_62354.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:37 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_62354.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_62354.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_62354.dir\Debug\cmTC_62354.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_62354.dir\Debug\cmTC_62354.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_62354.dir\Debug\\" /Fd"cmTC_62354.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_62354.dir\Debug\\" /Fd"cmTC_62354.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_62354.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_62354.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_62354.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_62354.dir\Debug\CheckIncludeFile.obj
+  cmTC_62354.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_62354.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_62354.dir\Debug\cmTC_62354.tlog\unsuccessfulbuild".
+  Touching "cmTC_62354.dir\Debug\cmTC_62354.tlog\cmTC_62354.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_62354.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.34
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d5f46.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:38 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_d5f46.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_d5f46.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_d5f46.dir\Debug\cmTC_d5f46.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_d5f46.dir\Debug\cmTC_d5f46.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d5f46.dir\Debug\\" /Fd"cmTC_d5f46.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d5f46.dir\Debug\\" /Fd"cmTC_d5f46.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  
+  CheckIncludeFile.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_d5f46.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_d5f46.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_d5f46.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_d5f46.dir\Debug\CheckIncludeFile.obj
+  cmTC_d5f46.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_d5f46.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_d5f46.dir\Debug\cmTC_d5f46.tlog\unsuccessfulbuild".
+  Touching "cmTC_d5f46.dir\Debug\cmTC_d5f46.tlog\cmTC_d5f46.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_d5f46.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.10
+
+
+Determining size of void * passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8e283.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:40 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_8e283.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8e283.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8e283.dir\Debug\cmTC_8e283.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8e283.dir\Debug\cmTC_8e283.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8e283.dir\Debug\\" /Fd"cmTC_8e283.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8e283.dir\Debug\\" /Fd"cmTC_8e283.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_VOIDP.c"
+  
+  SIZEOF_VOIDP.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_8e283.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_8e283.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_8e283.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8e283.dir\Debug\SIZEOF_VOIDP.obj
+  cmTC_8e283.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_8e283.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8e283.dir\Debug\cmTC_8e283.tlog\unsuccessfulbuild".
+  Touching "cmTC_8e283.dir\Debug\cmTC_8e283.tlog\cmTC_8e283.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_8e283.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.99
+
+
+Determining if the log2 exist passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_054bb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:44 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_054bb.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_054bb.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_054bb.dir\Debug\cmTC_054bb.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_054bb.dir\Debug\cmTC_054bb.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_054bb.dir\Debug\\" /Fd"cmTC_054bb.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_054bb.dir\Debug\\" /Fd"cmTC_054bb.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\CheckSymbolExists.c"
+  
+  CheckSymbolExists.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_054bb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_054bb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_054bb.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_054bb.dir\Debug\CheckSymbolExists.obj
+  cmTC_054bb.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_054bb.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_054bb.dir\Debug\cmTC_054bb.tlog\unsuccessfulbuild".
+  Touching "cmTC_054bb.dir\Debug\cmTC_054bb.tlog\cmTC_054bb.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_054bb.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.01
+
+File C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log2
+  return ((int*)(&log2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_ISINF succeeded with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8e0df.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:46 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_8e0df.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_8e0df.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8e0df.dir\Debug\cmTC_8e0df.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_8e0df.dir\Debug\cmTC_8e0df.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ISINF /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8e0df.dir\Debug\\" /Fd"cmTC_8e0df.dir\Debug\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_ISINF /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_8e0df.dir\Debug\\" /Fd"cmTC_8e0df.dir\Debug\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_8e0df.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_8e0df.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_8e0df.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8e0df.dir\Debug\src.obj
+  cmTC_8e0df.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_8e0df.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_8e0df.dir\Debug\cmTC_8e0df.tlog\unsuccessfulbuild".
+  Touching "cmTC_8e0df.dir\Debug\cmTC_8e0df.tlog\cmTC_8e0df.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_8e0df.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:00.98
+
+Source file was:
+#include  <math.h>
+int main() { 
+  isinf(0.0); 
+  return 0;
+}
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3d4ed.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:47 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_3d4ed.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_3d4ed.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3d4ed.dir\Debug\cmTC_3d4ed.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_3d4ed.dir\Debug\cmTC_3d4ed.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3d4ed.dir\Debug\\" /Fd"cmTC_3d4ed.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_SOCKADDR_IN6.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3d4ed.dir\Debug\\" /Fd"cmTC_3d4ed.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_SOCKADDR_IN6.c"
+  
+  SIZEOF_SOCKADDR_IN6.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_3d4ed.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_3d4ed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_3d4ed.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_3d4ed.dir\Debug\SIZEOF_SOCKADDR_IN6.obj
+  cmTC_3d4ed.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_3d4ed.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_3d4ed.dir\Debug\cmTC_3d4ed.tlog\unsuccessfulbuild".
+  Touching "cmTC_3d4ed.dir\Debug\cmTC_3d4ed.tlog\cmTC_3d4ed.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_3d4ed.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.73
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_90ec9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:49 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_90ec9.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_90ec9.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_90ec9.dir\Debug\cmTC_90ec9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_90ec9.dir\Debug\cmTC_90ec9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_90ec9.dir\Debug\\" /Fd"cmTC_90ec9.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_IN6_ADDR.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_90ec9.dir\Debug\\" /Fd"cmTC_90ec9.dir\Debug\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CheckTypeSize\SIZEOF_IN6_ADDR.c"
+  
+  SIZEOF_IN6_ADDR.c
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_90ec9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_90ec9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_90ec9.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_90ec9.dir\Debug\SIZEOF_IN6_ADDR.obj
+  cmTC_90ec9.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_90ec9.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_90ec9.dir\Debug\cmTC_90ec9.tlog\unsuccessfulbuild".
+  Touching "cmTC_90ec9.dir\Debug\cmTC_90ec9.tlog\cmTC_90ec9.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_90ec9.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.40
+
+
+Performing C++ SOURCE FILE Test HAVE_IMPLICIT_DEPENDENT_NAME_TYPING succeeded with the following output:
+Change Dir: C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ca193.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/30/2016 10:32:51 AM.
+Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_ca193.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTC_ca193.dir\Debug\".
+  Creating directory "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_ca193.dir\Debug\cmTC_ca193.tlog\".
+InitializeBuildStatus:
+  Creating "cmTC_ca193.dir\Debug\cmTC_ca193.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IMPLICIT_DEPENDENT_NAME_TYPING /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ca193.dir\Debug\\" /Fd"cmTC_ca193.dir\Debug\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\src.cxx"
+  Microsoft (R) C/C++ Optimizing Compiler Version 18.00.40629 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Z7 /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D HAVE_IMPLICIT_DEPENDENT_NAME_TYPING /D _WIN32_WINNT=0x0601 /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D _LARGEFILE_SOURCE /D _LARGE_FILES /D _FILE_OFFSET_BITS=64 /D __STDC_LIMIT_MACROS /D __STDC_CONSTANT_MACROS /D __STDC_FORMAT_MACROS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTC_ca193.dir\Debug\\" /Fd"cmTC_ca193.dir\Debug\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:queue /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\src.cxx"
+  
+  src.cxx
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ca193.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ca193.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/CMakeTmp/Debug/cmTC_ca193.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_ca193.dir\Debug\src.obj
+  cmTC_ca193.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\Debug\cmTC_ca193.exe
+FinalizeBuildStatus:
+  Deleting file "cmTC_ca193.dir\Debug\cmTC_ca193.tlog\unsuccessfulbuild".
+  Touching "cmTC_ca193.dir\Debug\cmTC_ca193.tlog\cmTC_ca193.lastbuildstate".
+Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\CMakeFiles\CMakeTmp\cmTC_ca193.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.27
+
+Source file was:
+
+  #include <vector>
+  template<typename T>
+  class ct2
+  {
+  public:
+    typedef T type;
+    void func();
+  };
+
+  template<typename T>
+  void ct2<T>::func()
+  {
+    std::vector<T> vec;
+    std::vector<T>::iterator itr = vec.begin();
+  }
+
+  int main(int argc, char **argv)
+  {
+    ct2<double> o2;
+    o2.func();
+    return 0;
+  }
+  

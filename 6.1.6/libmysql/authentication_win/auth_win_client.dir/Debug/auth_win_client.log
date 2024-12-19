@@ -1,0 +1,24 @@
+﻿Build started 7/15/2016 12:15:03 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\auth_win_client.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/authentication_win/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ENABLED_DEBUG_SYNC /D SAFE_MUTEX /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D CLIENT_PROTOCOL_TRACING /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D AUTHENTICATION_WIN /D SECURITY_WIN32 /D DEBUG_ERRROR_LOG /D WINAUTH_USE_DBUG_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"auth_win_client.dir\Debug\\" /Fd"auth_win_client.dir\Debug\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\plugin_client.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\handshake_client.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\log_client.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\common.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\handshake.cc"
+         plugin_client.cc
+         handshake_client.cc
+         log_client.cc
+         common.cc
+         handshake.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\Debug\auth_win_client.lib" /NOLOGO  /machine:X86 auth_win_client.dir\Debug\plugin_client.obj
+         auth_win_client.dir\Debug\handshake_client.obj
+         auth_win_client.dir\Debug\log_client.obj
+         auth_win_client.dir\Debug\common.obj
+         auth_win_client.dir\Debug\handshake.obj
+         auth_win_client.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\Debug\auth_win_client.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\authentication_win\auth_win_client.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.89

@@ -1,0 +1,17 @@
+﻿Build started 7/15/2016 12:15:23 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\mysqlclient.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\CMakeFiles\generate.stamp is up-to-date.
+         Generating mysqlclient_depends.c
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D CLIENT_PROTOCOL_TRACING /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D AUTHENTICATION_WIN /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"mysqlclient.dir\RelWithDebInfo\\" /Fd"mysqlclient.dir\RelWithDebInfo\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\mysqlclient_depends.c"
+         mysqlclient_depends.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\RelWithDebInfo\mysqlclient.lib" /NOLOGO  /machine:X86 C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/RelWithDebInfo/clientlib.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/dbug/RelWithDebInfo/dbug.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/strings/RelWithDebInfo/strings.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/vio/RelWithDebInfo/vio.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys/RelWithDebInfo/mysys.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys_ssl/RelWithDebInfo/mysys_ssl.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/zlib/RelWithDebInfo/zlib.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/RelWithDebInfo/yassl.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/taocrypt/RelWithDebInfo/taocrypt.lib C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/authentication_win/RelWithDebInfo/auth_win_client.lib mysqlclient.dir\RelWithDebInfo\mysqlclient_depends.obj
+         mysqlclient.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\RelWithDebInfo\mysqlclient.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\mysqlclient.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.40

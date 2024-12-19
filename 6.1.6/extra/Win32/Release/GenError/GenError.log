@@ -1,0 +1,11 @@
+﻿Build started 7/15/2016 12:14:59 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\GenError.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\CMakeFiles\generate.stamp is up-to-date.
+         Generating ../include/mysqld_error.h, ../sql/share/english/errmsg.sys
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\GenError.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.36

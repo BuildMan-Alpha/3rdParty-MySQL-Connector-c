@@ -1,0 +1,27 @@
+﻿Build started 7/15/2016 12:13:50 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\ZERO_CHECK.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/zlib/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/yassl/taocrypt/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/include/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/dbug/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/strings/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/vio/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/regex/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/mysys_ssl/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/authentication_win/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/extra/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/scripts/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/tests/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/support-files/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/dev/3rdParty/MySQL/Connector-c/6.1.6/packaging/WiX/CMakeFiles/generate.stamp is up-to-date.
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\ZERO_CHECK.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

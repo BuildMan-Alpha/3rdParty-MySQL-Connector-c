@@ -1,0 +1,37 @@
+﻿Build started 7/15/2016 12:15:05 PM.
+     1>Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\clientlib.vcxproj" on node 2 (Rebuild target(s)).
+     1>CustomBuild:
+         Building Custom Rule C:/dev/3rdParty/MySQL/Connector-c/6.1.6/libmysql/CMakeLists.txt
+         CMake does not need to re-run because C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D CLIENT_PROTOCOL_TRACING /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D AUTHENTICATION_WIN /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"clientlib.dir\RelWithDebInfo\\" /Fd"clientlib.dir\RelWithDebInfo\vc120.pdb" /Gd /TC /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\get_password.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\libmysql.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\errmsg.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\my_time.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client_plugin.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\pack.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\auth\password.c" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\mysql_trace.c"
+         get_password.c
+         libmysql.c
+         errmsg.c
+         client.c
+         my_time.c
+         client_plugin.c
+         pack.c
+         password.c
+         mysql_trace.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\rapidjson\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\regex" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\strings" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\include" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\extra\yassl\taocrypt\mySTL" /I"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\zlib" /Z7 /nologo /W3 /WX- /MP /O2 /Ob1 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D DBUG_OFF /D HAVE_YASSL /D YASSL_PREFIX /D HAVE_OPENSSL /D MULTI_THREADED /D CLIENT_PROTOCOL_TRACING /D _WIN32_WINNT=0x0601 /D WIN32_LEAN_AND_MEAN /D NOGDI /D NOMINMAX /D HAVE_CONFIG_H /D AUTHENTICATION_WIN /D "CMAKE_INTDIR=\"RelWithDebInfo\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"clientlib.dir\RelWithDebInfo\\" /Fd"clientlib.dir\RelWithDebInfo\vc120.pdb" /Gd /TP /wd4800 /wd4805 /wd4996 /analyze- /errorReport:prompt /we4099 "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql-common\client_authentication.cc" "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\sql\net_serv.cc"
+         client_authentication.cc
+         net_serv.cc
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\RelWithDebInfo\clientlib.lib" /NOLOGO  /machine:X86 clientlib.dir\RelWithDebInfo\get_password.obj
+         clientlib.dir\RelWithDebInfo\libmysql.obj
+         clientlib.dir\RelWithDebInfo\errmsg.obj
+         clientlib.dir\RelWithDebInfo\client.obj
+         clientlib.dir\RelWithDebInfo\my_time.obj
+         clientlib.dir\RelWithDebInfo\client_plugin.obj
+         clientlib.dir\RelWithDebInfo\client_authentication.obj
+         clientlib.dir\RelWithDebInfo\net_serv.obj
+         clientlib.dir\RelWithDebInfo\pack.obj
+         clientlib.dir\RelWithDebInfo\password.obj
+         clientlib.dir\RelWithDebInfo\mysql_trace.obj
+         clientlib.vcxproj -> C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\RelWithDebInfo\clientlib.lib
+     1>Done Building Project "C:\dev\3rdParty\MySQL\Connector-c\6.1.6\libmysql\clientlib.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.13
